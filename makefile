@@ -1,0 +1,7 @@
+# Simple Makefile for PIPES_RECIEVE
+
+PIPES_RECIEVE: PIPES_RECIEVE.cpp
+	g++ -O3 -Wall -o PIPES_RECIEVE PIPES_RECIEVE.cpp
+
+clean:
+	rm -f PIPES_RECIEVE
